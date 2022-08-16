@@ -1,0 +1,110 @@
+<html>
+<head>
+  <title>Math Equations Solver</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+  <div style="position: absolute; top:5px; left: 60px" onclick="buttonclick3()">
+  <p style="font-size: 35px" class="paragraph"><b>M</b>ath <b>E</b>quations <b>S</b>olver</p>
+  </div>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+
+  </header>
+                            <!--Navbar-->
+  <div class="wrapper" style="position: relative" onclick="buttonclick2()">
+  <nav>
+  <ul>
+    <a href="Home.html"><li>Home</li></a>
+    <a href="About.html"><li>About</li></a>
+    <li>Algebra ▾
+      <ul>
+        <a href="Quadratic equation.html"><li>Quadratic Equation</li></a>
+        <a href="Cubic equation.html"><li>Cubic Equation</li></a>
+      </ul>
+    </li>
+    <li>Geometry</li>
+  </ul>
+  </nav>
+  </div>
+
+                        <!--Language Switch Button-->
+  <div id="kuku" class="kuku"></div>
+
+  <div class="container" onclick="languageswitch()">
+    <div class="buttontoggle" onclick="this.classList.toggle('active')">
+      <div class="circle" style="cursor: pointer">
+      </div>
+    </div>
+  </div>
+
+  <img src="georgia.png" class="georgia-flag">
+  <img src="UK.png" class="UK-flag">
+
+  <div class="line">
+  </div>
+
+                      <!--Math Background-->
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 300px; top: 100px; width: 300px; z-index: -5">
+    <source src="prism.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 950px; top: 300px; width: 300px; z-index: -5">
+    <source src="prism.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 1165px; top: 100px; width: 200px; z-index: -5">
+    <source src="polygon.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 740px; top: 100px; width: 300px; z-index: -5">
+    <source src="sphere.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 800px; top: 400px; width: 170px; z-index: -5">
+    <source src="cube.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: -100px; top: 100px; width: 300px; z-index: -5">
+    <source src="cone.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 400px; top: 400px; width: 150px; z-index: -5">
+    <source src="cylinder.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 50px; top: 300px; width: 300px; z-index: -5">
+    <source src="sphere2.mp4" type="video/mp4">
+  </video>
+
+  <video autoplay muted loop id="myVideo" style="position: absolute; left: 1215px; top: 450px; width: 150px; z-index: -5">
+    <source src="tetrahedron.mp4" type="video/mp4">
+  </video>
+
+                    <!--Javascript-->
+
+  <script>
+
+
+  function buttonclick3(){
+    window.location.href = "home.html";
+  }
+
+  function languageswitch(){
+    if (document.getElementById("kuku").style.left = "490px") {
+      window.location.href = "მთავარი-GE.html"
+    }
+  }
+  </script>
+
+
+</body>
+
+</html>
